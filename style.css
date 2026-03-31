@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* ===== BODY ===== */
+
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   line-height: 1.6;
@@ -12,9 +12,7 @@ body {
   min-height: 100vh;
 }
 
-/* ========================================
-   ===== NAVBAR =====
-   ======================================== */
+
 
 .navbar {
   display: flex;
@@ -91,17 +89,17 @@ body {
   width: 40%;
 }
 
-/* ===== DROPDOWN ===== */
+
 .dropdown {
   position: relative;
 }
 
-/* Hide the checkbox itself */
+
 .dropdown-checkbox {
   display: none;
 }
 
-/* Label styled exactly like a nav link */
+
 .dropdown-label {
   text-decoration: none;
   color: #cccccc;
@@ -129,7 +127,7 @@ body {
   display: inline-block;
 }
 
-/* Rotate caret when checkbox is checked */
+
 .dropdown-checkbox:checked ~ .dropdown-label .caret {
   transform: rotate(180deg);
 }
@@ -161,13 +159,13 @@ body {
   border-bottom: none;
 }
 
-/* Show on hover (desktop) */
+
 .dropdown:hover .dropdown-content {
   display: block;
   animation: fadeSlideDown 0.2s ease;
 }
 
-/* Show on click/tap via checkbox (mobile & file://) */
+
 .dropdown-checkbox:checked ~ .dropdown-content {
   display: block;
   animation: fadeSlideDown 0.2s ease;
@@ -207,9 +205,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* ========================================
-   ===== HERO =====
-   ======================================== */
+
 
 .hero-content {
   text-align: center;
@@ -270,9 +266,7 @@ body {
   box-shadow: 0 12px 28px rgba(255, 107, 107, 0.45);
 }
 
-/* ========================================
-   ===== RECIPES SECTION =====
-   ======================================== */
+
 
 #recipes {
   padding: 20px 60px 80px;
@@ -294,14 +288,14 @@ body {
   margin-bottom: 48px;
 }
 
-/* ===== GRID ===== */
+
 .recipes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 28px;
 }
 
-/* ===== CARD ===== */
+
 .card {
   background: #ffffff;
   border-radius: 20px;
@@ -403,9 +397,7 @@ body {
   transform: translateX(3px);
 }
 
-/* ========================================
-   ===== RECIPE PAGE =====
-   ======================================== */
+
 
 .recipe-page {
   max-width: 960px;
@@ -414,7 +406,7 @@ body {
   text-align: center;
 }
 
-/* Back link */
+
 .back-link {
   display: inline-flex;
   align-items: center;
@@ -461,7 +453,7 @@ body {
   box-shadow: 0 28px 70px rgba(255, 107, 107, 0.35);
 }
 
-/* Badge row */
+
 .recipe-details {
   display: flex;
   justify-content: center;
@@ -487,7 +479,7 @@ body {
   color: #ff6b6b;
 }
 
-/* Recipe container */
+
 .recipe-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -495,7 +487,7 @@ body {
   text-align: left;
 }
 
-/* Ingredients card */
+
 .ingredients {
   background: linear-gradient(145deg, #fff8f8, #ffffff);
   border: 1.5px solid #ffdede;
@@ -521,7 +513,7 @@ body {
   box-shadow: 0 16px 40px rgba(255, 107, 107, 0.2);
 }
 
-/* Steps card */
+
 .steps {
   background: linear-gradient(145deg, #fff4f0, #ffffff);
   border: 1.5px solid #ffd0bb;
@@ -623,7 +615,7 @@ body {
 .steps ol li:last-child { border-bottom: none; }
 .steps ol li:hover { color: #e63946; }
 
-/* ===== RECIPE NAV (prev/next) ===== */
+
 .recipe-nav {
   display: flex;
   justify-content: space-between;
@@ -657,9 +649,7 @@ body {
 .recipe-nav a.prev:hover { transform: translateX(-3px); }
 .recipe-nav a.next:hover { transform: translateX(3px); }
 
-/* ========================================
-   ===== ABOUT SECTION =====
-   ======================================== */
+
 
 .about-section {
   padding: 80px 60px;
@@ -675,7 +665,7 @@ body {
   align-items: center;
 }
 
-/* Image side */
+
 .about-image {
   position: relative;
 }
@@ -713,7 +703,7 @@ body {
   opacity: 0.9;
 }
 
-/* Content side */
+
 .about-content {
   display: flex;
   flex-direction: column;
@@ -734,7 +724,7 @@ body {
   line-height: 1.8;
 }
 
-/* Stats row */
+
 .about-stats {
   display: flex;
   gap: 32px;
@@ -765,7 +755,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* Feature checklist */
+
 .about-features {
   display: flex;
   flex-direction: column;
@@ -786,9 +776,7 @@ body {
   flex-shrink: 0;
 }
 
-/* ========================================
-   ===== CONTACT PAGE =====
-   ======================================== */
+
 
 .contact-section {
   padding: 20px 60px 80px;
@@ -803,7 +791,7 @@ body {
   align-items: start;
 }
 
-/* Info column */
+
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -859,7 +847,7 @@ body {
   color: #ff6b6b;
 }
 
-/* Form column */
+
 .contact-form {
   background: #ffffff;
   padding: 36px;
@@ -915,7 +903,7 @@ body {
   font-size: 1rem;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
   text-align: center;
   padding: 24px;
@@ -924,9 +912,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ========================================
-   ===== RESPONSIVE — TABLET (1024px) =====
-   ======================================== */
+
 @media (max-width: 1024px) {
   .navbar {
     padding: 0 30px;
@@ -949,12 +935,10 @@ footer {
   }
 }
 
-/* ========================================
-   ===== RESPONSIVE — MOBILE (768px) =====
-   ======================================== */
+
 @media (max-width: 768px) {
 
-  /* Navbar */
+  
   .navbar {
     padding: 14px 20px;
     height: auto;
@@ -974,7 +958,7 @@ footer {
     padding: 6px 12px;
   }
 
-  /* Hero */
+  
   .hero-content {
     padding: 60px 20px 50px;
   }
@@ -988,7 +972,7 @@ footer {
     font-size: 1rem;
   }
 
-  /* Recipes */
+  
   #recipes {
     padding: 20px 16px 50px;
   }
@@ -1002,7 +986,7 @@ footer {
     height: 150px;
   }
 
-  /* Recipe page */
+ 
   .recipe-page {
     margin: 30px auto 60px;
     padding: 0 16px;
@@ -1061,9 +1045,7 @@ footer {
   }
 }
 
-/* ========================================
-   ===== RESPONSIVE — SMALL (480px) =====
-   ======================================== */
+
 @media (max-width: 480px) {
   .hero-content h2 {
     font-size: 26px;
