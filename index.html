@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorFusion - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+    <div class="logo">🍽️ Flavor<span>Fusion</span></div>
+    <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="recipe1.html">Recipes</a>
+        <div class="dropdown">
+            <input type="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
+            <label for="dropdown-toggle" class="dropdown-label">Categories <span class="caret">▼</span></label>
+            <ul class="dropdown-content">
+                <li><a href="#veg"><i class="fa-solid fa-leaf"></i> Veg</a></li>
+                <li><a href="#non-veg"><i class="fa-solid fa-drumstick-bite"></i> Non-Veg</a></li>
+                <li><a href="#desserts"><i class="fa-solid fa-cake-candles"></i> Desserts</a></li>
+                <li><a href="#quick-meals"><i class="fa-solid fa-bolt"></i> Quick Meals</a></li>
+            </ul>
+        </div>
+        <a href="#about">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<div class="hero-content">
+    <p class="hero-tag">🍴 Welcome to FlavorFusion</p>
+    <h2>Discover <span class="highlight">Delicious</span> Recipes</h2>
+    <p class="hero-sub">From quick snacks to gourmet meals, explore a world of flavors and cook like a pro!</p>
+    <a href="#recipes" class="btn">Explore Recipes ↓</a>
+</div>
+
+<!-- ===== ALL RECIPES SECTION ===== -->
+<section id="recipes">
+    <h2 class="section-title">Featured Recipes</h2>
+    <p class="section-sub">Hand-picked favourites from our kitchen to yours</p>
+
+    <div class="recipes">
+
+        <!-- VEG -->
+        <div class="card" id="veg">
+            <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80" alt="Italian Pasta">
+                <span class="card-tag">Veg</span>
+            </div>
+            <div class="card-body">
+                <h3>Italian Pasta</h3>
+                <p>Creamy and delicious white sauce pasta.</p>
+                <a href="recipe1.html" class="card-btn">View Recipe <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- NON-VEG -->
+        <div class="card" id="non-veg">
+            <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&q=80" alt="Hyderabadi Biryani">
+                <span class="card-tag non-veg">Non-Veg</span>
+            </div>
+            <div class="card-body">
+                <h3>Hyderabadi Biryani</h3>
+                <p>Spicy and flavorful rice dish.</p>
+                <a href="recipe2.html" class="card-btn">View Recipe <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- DESSERT -->
+        <div class="card" id="desserts">
+            <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Chocolate Cake">
+                <span class="card-tag dessert">Dessert</span>
+            </div>
+            <div class="card-body">
+                <h3>Chocolate Cake</h3>
+                <p>Soft and rich chocolate delight.</p>
+                <a href="recipe3.html" class="card-btn">View Recipe <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- VEG -->
+        <div class="card">
+            <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80" alt="Healthy Salad">
+                <span class="card-tag">Veg</span>
+            </div>
+            <div class="card-body">
+                <h3>Healthy Salad</h3>
+                <p>Fresh and nutritious veggie mix.</p>
+                <a href="recipe4.html" class="card-btn">View Recipe <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- QUICK MEAL -->
+        <div class="card" id="quick-meals">
+            <div class="card-img-wrap">
+                <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80" alt="Tomato Soup">
+                <span class="card-tag quick">Quick Meal</span>
+            </div>
+            <div class="card-body">
+                <h3>Tomato Soup</h3>
+                <p>Warm and comforting classic soup.</p>
+                <a href="recipe5.html" class="card-btn">View Recipe <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section id="about" class="about-section">
+    <div class="about-container">
+
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700&q=80" alt="Delicious food">
+            <div class="about-badge">
+                <span class="badge-number">5+</span>
+                <span class="badge-text">Delicious Recipes</span>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <p class="hero-tag">🍽️ Who We Are</p>
+            <h2>Cooking Made <span class="highlight">Simple</span> & Joyful</h2>
+            <p class="about-desc">FlavorFusion is a passion project born out of love for home cooking. We believe that great food doesn't have to be complicated — just fresh ingredients, simple steps, and a whole lot of heart.</p>
+            <p class="about-desc">Whether you're a beginner just learning to boil water or a seasoned cook looking for new ideas, our collection of recipes has something for everyone.</p>
+
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Recipes</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Homemade</span>
+                </div>
+            </div>
+
+            <div class="about-features">
+                <div class="about-feature">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Easy step-by-step instructions</span>
+                </div>
+                <div class="about-feature">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Prep time & difficulty listed</span>
+                </div>
+                <div class="about-feature">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Veg, Non-Veg & Dessert options</span>
+                </div>
+                <div class="about-feature">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Quick meals for busy days</span>
+                </div>
+            </div>
+
+            <a href="#recipes" class="btn">Browse Recipes ↓</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>© 2025 FlavorFusion &nbsp;|&

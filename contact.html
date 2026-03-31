@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FlavorFusion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+    <div class="logo">🍽️ Flavor<span>Fusion</span></div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="recipe1.html">Recipes</a>
+        <div class="dropdown">
+            <input type="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
+            <label for="dropdown-toggle" class="dropdown-label">Categories <span class="caret">▼</span></label>
+            <ul class="dropdown-content">
+                <li><a href="index.html#veg"><i class="fa-solid fa-leaf"></i> Veg</a></li>
+                <li><a href="index.html#non-veg"><i class="fa-solid fa-drumstick-bite"></i> Non-Veg</a></li>
+                <li><a href="index.html#desserts"><i class="fa-solid fa-cake-candles"></i> Desserts</a></li>
+                <li><a href="index.html#quick-meals"><i class="fa-solid fa-bolt"></i> Quick Meals</a></li>
+            </ul>
+        </div>
+        <a href="contact.html" class="active">Contact</a>
+    </div>
+</nav>
+
+<!-- ===== CONTACT HERO ===== -->
+<div class="hero-content" style="padding: 60px 20px 40px;">
+    <p class="hero-tag">📬 Get In Touch</p>
+    <h2>Contact <span class="highlight">Us</span></h2>
+    <p class="hero-sub">Have a recipe suggestion or feedback? We'd love to hear from you!</p>
+</div>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact-section">
+    <div class="contact-container">
+
+        <!-- INFO COLUMN -->
+        <div class="contact-info">
+
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                    <h4>Email</h4>
+                    <p>hello@flavorfusion.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h4>Phone</h4>
+                    <p>+91 98765 43210</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h4>Location</h4>
+                    <p>New Delhi, India</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                    <h4>Response Time</h4>
+                    <p>Within 24 hours</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FORM COLUMN -->
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="e.g. Nakshataa Tomar">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="e.g. hello@email.com">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="e.g. Recipe suggestion">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Share your thoughts or recipe ideas..."></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>© 2025 FlavorFusion &nbsp;|&
